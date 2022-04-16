@@ -7,5 +7,7 @@ namespace LibraryManager.BLL
     {
         List<T> SearchByTitle(String title);
         List<T> SearchByBarcode(int barcode);
+        List<T> SearchBookByAuthorNationality(String nationality);
+        List<T> SearchBookByAuthorBirth(DateTime birthDate);
     }
 }
