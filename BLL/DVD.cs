@@ -3,6 +3,7 @@ namespace LibraryManager.BLL
 {
     public class DVD : Item
     {
+
         public String director { get; set; }
         public String nationality { get; set; }
         public DateTime birthDate { get; set; }

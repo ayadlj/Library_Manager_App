@@ -3,6 +3,7 @@ namespace LibraryManager.BLL
 {
     public class Book : Item
     {
+
         public String author { get; set; }
         public String ISBN { get; set; }
         public String nationality { get; set; }
